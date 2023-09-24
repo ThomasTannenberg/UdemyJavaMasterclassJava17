@@ -23,4 +23,18 @@ public class MainChallenge {
             System.out.println("Your final score was: " + finaleScore);
         }
     }
+
+    public static void calculateScore() {
+        boolean gameOver = true;
+        int score = 800;
+        int levelCompleted = 5;
+        int bonus = 100;
+
+        int finaleScore = score;
+
+        if (gameOver) {
+            finaleScore += (levelCompleted * bonus);
+            System.out.println("Your final score was: " + finaleScore);
+        }
+    }
 }
