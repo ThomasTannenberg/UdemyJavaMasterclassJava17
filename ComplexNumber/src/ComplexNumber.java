@@ -30,6 +30,6 @@ public class ComplexNumber {
     }
 
     public void subtract(ComplexNumber other) {
-        this.subtract(other.getReal(), other.getImaginary());
+        subtract(other.getReal(), other.getImaginary());
     }
 }
